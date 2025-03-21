@@ -16,18 +16,18 @@
     </form>
 
     <?php
+    function ehPrimo($num1)
+    {
+        if ($num1 < 2) {
+            echo "Números menores que 2 não são primos.";
+            return false;
+        }
+    }
+
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $num1 = ($_POST["num1"]);
-
-        for($i = $num1; $i){
-
-        }
-
-
-
-
     }
 
 
